@@ -10,7 +10,6 @@
 }
 
 .blocco {
-  background-color: blue;
   height: 800px;
   width: 100%;
   margin: 10px 0;
@@ -18,11 +17,27 @@
 }
 
 .nome-città {
-  height:200px;
-  width: 300px;
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
-  background-color: red;
+  font-family: 'Mukta', sans-serif;
+  font-size: 150px;
+  color: white;
+}
+
+.blocco:nth-child(1) {
+  background: url("../img/milano.jpg");
+  background-size: cover;
+
+}
+
+.blocco:nth-child(2) {
+  background: url("../img/torino.pjpeg");
+  background-size: cover;
+}
+
+.blocco:nth-child(3) {
+  background: url("../img/venezia.jpg");
+  background-size: cover;
 }
