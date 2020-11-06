@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.blocco {
+  background-color: blue;
+  height: 800px;
+  width: 100%;
+  margin: 10px 0;
+  position: relative;
+}
+
+.nome-città {
+  height:200px;
+  width: 300px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  background-color: red;
+}
