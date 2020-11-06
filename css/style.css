@@ -10,13 +10,18 @@
 }
 
 .blocco {
+  margin: 10px 0;
+  box-shadow: 4px 4px grey;
+}
+
+.cover {
   height: 800px;
   width: 100%;
-  margin: 10px 0;
+  background-color: rgba(0, 0, 0, 0.4);
   position: relative;
 }
 
-.nome-città {
+.name-city {
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
@@ -24,6 +29,7 @@
   font-family: 'Mukta', sans-serif;
   font-size: 150px;
   color: white;
+  text-shadow: 3px 3px grey;
 }
 
 .blocco:nth-child(1) {
